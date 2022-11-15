@@ -1,0 +1,37 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}
+
+.card {
+    height: 400px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 6em;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px 5px 20px;
+}
+
+.type-row {
+    display: flex;
+}
+
+.row {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.end {
+    transform: rotate(-180deg);
+}
+
+.red {
+    color: red;
+}
